@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>MVC Application</title>
+</head>
+
+<body>
+
+    <h2>Personal Information</h2>
+
+    <form action="Controller" method="POST">
+
+        First Name:
+        <input type="text" name="firstName" required>
+        <br><br>
+
+        Last Name:
+        <input type="text" name="lastName" required>
+        <br><br>
+
+        Birth Day (mm/dd/yyyy):
+        <input type="text" name="birthDay"
+               placeholder="05/20/1988" required>
+        <br><br>
+
+        Sex:
+        <input type="radio" name="sex"
+               value="Homme" required> Homme
+
+        <input type="radio" name="sex"
+               value="Femme"> Femme
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+</html>
